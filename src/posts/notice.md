@@ -1,4 +1,5 @@
 ---
+title: 公告栏
 icon: info
 date: 2023-04-11
 category:
