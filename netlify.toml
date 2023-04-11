@@ -1,0 +1,9 @@
+[build.environment]
+  # bypass npm auto install
+  NPM_FLAGS = "--version"
+  NODE_VERSION = "18"
+  PLAYWRIGHT_BROWSERS_PATH = "0"
+
+[build]
+  publish = "src/.vuepress/dist"
+  command = "npx pnpm i --store=node_modules/.pnpm-store && npx pnpm build && npx pnpm run docs:build"
