@@ -9,8 +9,6 @@ tag:
 star: true
 sticky: 1
 ---
-# 公告栏
-
 本站部署在 Netlify 上，使用 Cloudflare CDN
 
 ↓下面这个是本站的 [Netlify 状态标签](https://docs.netlify.com/monitor-sites/status-badges/)
@@ -19,13 +17,14 @@ sticky: 1
 
 现在的评论系统用的是 [Giscus](https://giscus.app/) ，基于 GitHub Discussions ，墙内直接访问可能比较困难。
 
-页面底部的上次编辑时间是 UTC 时间
-
 如果想交换友链的话，用任意方式联系我即可
 
 <!-- more -->
 
-## 网站日志
+# 已知BUG
+1. 主页右侧的文章列表不全
+
+# 网站日志
 
 ```log
 2023-04-12 博客改用 Cloudflare DNS 和 CDN
