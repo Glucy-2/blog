@@ -79,7 +79,7 @@ export default hopeTheme({
 
     comment: {
       provider: "Giscus",
-      repo: "Glucy2/blog",
+      repo: "Glucy-2/blog",
       repoId: "R_kgDOJUPW8w",
       category: "Announcements",
       categoryId: "DIC_kwDOJUPW884CVtus",
