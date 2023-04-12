@@ -18,7 +18,6 @@ export default hopeTheme({
   logo: "/logo.jpg",
 
   repo: "Glucy2/blog",
-  repoDisplay: false,
 
   docsDir: "main",
 
@@ -79,17 +78,11 @@ export default hopeTheme({
     },
 
     comment: {
-      provider: "Waline",
-      emoji: [
-        '//unpkg.com/@waline/emojis@1.1.0/bilibili',
-        '//unpkg.com/@waline/emojis@1.1.0/bmoji',
-        '//unpkg.com/@waline/emojis@1.1.0/tieba',
-        '//unpkg.com/@waline/emojis@1.1.0/qq',
-        '//unpkg.com/@waline/emojis@1.1.0/weibo',
-      ],
-      serverURL: "https://blog-waline.glucy2.cn/",
-      reaction: true,
-      recaptchaV3Key: "6Ld3l3klAAAAAPvTHb7ztU3DsPoU3kB_UC_f8I76"
+      provider: "Giscus",
+      repo: "Glucy2/blog",
+      repoId: "R_kgDOJUPW8w",
+      category: "Announcements",
+      categoryId: "DIC_kwDOJUPW884CVtus",
     },
 
     copyright: {
