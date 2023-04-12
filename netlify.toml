@@ -1,3 +1,3 @@
 [build]
   publish = "src/.vuepress/dist"
-  command = "pnpm run docs:build"
+  command = "pnpm install && pnpm run docs:build"
