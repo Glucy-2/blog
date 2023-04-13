@@ -27,6 +27,7 @@ sticky: 1
 # 网站日志
 
 ```log
+2023-04-13 添加了基于 Vuepress docsearch 插件和 Algolia DocSearch 的搜索功能
 2023-04-12 博客改用 Cloudflare DNS 和 CDN
 2023-04-12 博客评论系统改用 Giscus
 2023-04-12 博客在国内使用了百度云加速
