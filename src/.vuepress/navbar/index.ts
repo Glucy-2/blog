@@ -44,7 +44,7 @@ export const Navbar = navbar([
             "strawberry",
         ],*/
     },
-    { text: "关于", icon: "profile", link: "/about" },
+    { text: "关于", icon: "profile", link: "/about/" },
     {
         text: "看看Minecraft服务器？",
         icon: "link",

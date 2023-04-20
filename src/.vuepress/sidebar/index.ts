@@ -8,8 +8,8 @@ export const Sidebar = sidebar({
       icon: "note",
       link: "/article",
       prefix: "article/",
-      children: "structure",
+      //children: "structure",
     },
-    "about",
+    "about/",
   ],
 });

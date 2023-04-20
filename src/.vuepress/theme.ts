@@ -26,7 +26,7 @@ export default hopeTheme({
     articlePerPage: 16,
     name: "Glucy2",
     description: "Minecraft玩家/服主，学生，自由软件爱好者，Python菜鸟",
-    intro: "/about",
+    intro: "/about/",
     medias: {
       //Baidu: "https://example.com",
       BiliBili: "https://space.bilibili.com/85636804",
@@ -71,7 +71,7 @@ export default hopeTheme({
 
   navbar: Navbar,
 
-  //sidebar: Sidebar,
+  sidebar: undefined,
 
   plugins: {
     blog: {
