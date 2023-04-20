@@ -17,7 +17,7 @@ export default hopeTheme({
 
   logo: "/logo.jpg",
 
-  repo: "Glucy2/blog",
+  repo: "Glucy-2/blog",
 
   docsDir: "main",
 
