@@ -2,7 +2,7 @@
   "name": "glucy2-blog",
   "version": "1.0.0",
   "description": "Glucy2's blog",
-  "license": "CC BY-SA 4.0",
+  "license": "CC BY-NC-SA 4.0",
   "type": "module",
   "scripts": {
     "docs:build": "vuepress build src",

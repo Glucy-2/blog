@@ -88,7 +88,7 @@ export default hopeTheme({
     copyright: {
       global: true,
       author: "Glucy2",
-      license: "CC BY-SA 4.0",
+      license: "CC BY-NC-SA 4.0",
       triggerWords: 100,
     },
 
