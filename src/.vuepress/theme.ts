@@ -71,7 +71,7 @@ export default hopeTheme({
 
   navbar: Navbar,
 
-  sidebar: undefined,
+  sidebar: false,
 
   plugins: {
     blog: {
