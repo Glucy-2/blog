@@ -83,6 +83,7 @@ export default hopeTheme({
       repoId: "R_kgDOJUPW8w",
       category: "Announcements",
       categoryId: "DIC_kwDOJUPW884CVtus",
+      strict: false,
     },
 
     copyright: {
