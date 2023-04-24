@@ -4,6 +4,7 @@ layout: BlogHome
 icon: home
 title: Glucy2 的博客
 heroImage: /logo.jpg
+heroAlt: Glucy2 的头像
 heroText: Glucy2 的博客
 tagline: Minecraft玩家/服主，学生，自由软件爱好者，Python菜鸟
 heroFullScreen: false
