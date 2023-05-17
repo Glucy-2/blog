@@ -40,6 +40,6 @@ projects:
 #    desc: Detailed description of this custom item
 #    link: https://link.to.your.friend
 
-footer: <p>CC BY-NC-SA 4.0 协议</p><p><a href=//beian.miit.gov.cn>苏ICP备2022031552号-3</a></p>
+footer: <p>CC BY-NC-SA 4.0 协议</p>
 ---
 啥，翻到底了QwQ？

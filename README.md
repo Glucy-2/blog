@@ -5,4 +5,4 @@
 
 使用 [VuePress](https://v2.vuepress.vuejs.org/zh/) 与 [VuePress Theme Hope](https://theme-hope.vuejs.press/zh/) 搭建的个人博客。
 
-### [博客地址](https://glucy2.cn)
+### [博客地址](https://glucy2.com)
