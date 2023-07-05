@@ -4,11 +4,11 @@ import { Sidebar } from "./sidebar/index.js";
 import { loadUserConfig } from "vuepress";
 
 export default hopeTheme({
-  hostname: "https://glucy2.cn",
+  hostname: "https://glucy2.com",
 
   author: {
     name: "Glucy2",
-    url: "https://glucy2.cn",
+    url: "https://glucy2.com",
   },
 
   copyright: '<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。 | Copyright © 2023-present Glucy2',
@@ -144,7 +144,7 @@ export default hopeTheme({
       channel: {
         title: "Glucy2's Blog",
         description: "Glucy2's blog",
-        link: "https://glucy2.cn",
+        link: "https://glucy2.com",
         language: "zh-CN",
       },
       atom: true,
