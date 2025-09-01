@@ -1,3 +1,4 @@
+import type { GiscusProps } from "@giscus/react";
 import type { Props } from "astro";
 import IconMail from "@/assets/icons/IconMail.svg";
 import IconGitHub from "@/assets/icons/IconGitHub.svg";
@@ -81,3 +82,16 @@ export const SHARE_LINKS: Social[] = [
     icon: IconMail,
   },
 ] as const;
+
+export const GISCUS: GiscusProps = {
+  repo: "Glucy-2/blog",
+  repoId: "R_kgDOJUPW8w",
+  category: "Announcements",
+  categoryId: "DIC_kwDOJUPW884CVtus",
+  mapping: "pathname",
+  reactionsEnabled: "0",
+  emitMetadata: "0",
+  inputPosition: "bottom",
+  lang: "zh-CN",
+  loading: "lazy",
+};
