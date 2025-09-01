@@ -1,37 +1,22 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "关于我"
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+Glucy2 喵
 
-![Astro Paper](public/astropaper-og.jpg)
+嚎喵！窝是 Glucy2
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+喵学的不是是 CS 但是喜欢折腾各种东西 主要是软件 有时候会有硬件（？
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+喵不怎么会编程，偶尔边查资料边写 bash 或者 python 之类的脚本
 
-## Features
+喵喜欢玩 Minecraft，有个[服务器](https://skimit.net)但是现在根本没时间搞🥲
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+喵在桌面端主要用 ArchLinux，有时候得用 Windows 不过大多数情况是虚拟机 然后服务器一般物理机用 Proxmox，虚拟机用 Alpine 或者 Debian
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+平时[在 Telegram 上](https://t.me/Glucy2_d) 比较活跃，可以在那里找到我的频道和群
 
-and so much more.
+时不时会在 Fediverse 拉史活跃: [nya.one/@Glucy2](https://nya.one/@Glucy2)
 
-## Show your support
-
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
-
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+🤔其他没什么了（？
