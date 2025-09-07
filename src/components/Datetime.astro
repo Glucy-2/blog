@@ -44,7 +44,11 @@ const date = datetime.format("YYYY 年 MM 月 DD 日");
   {
     isModified && (
       <span class:list={["text-sm", { "sm:text-base": size === "lg" }]}>
-        更新时间:
+        更新:
+      </span>
+    ) || (
+      <span class:list={["text-sm", { "sm:text-base": size === "lg" }]}>
+        发布:
       </span>
     )
   }
