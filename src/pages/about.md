@@ -39,12 +39,18 @@ Glucy2 喵
 
 # OpenPGP 公钥
 
+## 现用的 PGP 密钥
+
 Key ID: `C55F04663485AF63607305A323F9FE61202F3C87`
 
 你可以在本站的 [OpenPGP 公钥文件](/openpgp-public.asc) 找到我的公钥
 
 也可以在 [Ubuntu Keyserver](https://keyserver.ubuntu.com/pks/lookup?search=C55F04663485AF63607305A323F9FE61202F3C87&fingerprint=on&op=index)、[OpenGPG KeyServer](https://keys.openpgp.org/search?q=C55F04663485AF63607305A323F9FE61202F3C87) 中搜索 Key ID 以找到公钥副本
 
+## 以前用过的 PGP 密钥
+
+- Key ID: `84442ED56482464E031401657E439CCF9090D42E`
+  - 已废弃 (私钥丢失)
 
 # 订阅博客
 
