@@ -1,0 +1,72 @@
+---
+import { SITE } from "@/config";
+import Layout from "./Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Breadcrumb from "@/components/Breadcrumb.astro";
+
+export interface Props {
+  frontmatter: {
+    title: string;
+    description?: string;
+    friends?: {
+      name: string;
+      url: string;
+      avatar: string | null;
+      description: string | null;
+    }[];
+  };
+}
+
+const { frontmatter } = Astro.props;
+---
+
+<Layout title={`${frontmatter.title} | ${SITE.title}`}>
+  <Header />
+  <Breadcrumb />
+  <main id="main-content" class="app-layout">
+    <section id="friends" class="mb-28 max-w-app prose-img:border-0">
+      <h1 class="text-2xl tracking-wider sm:text-3xl mb-8">{frontmatter.title}</h1>
+      
+      {
+        frontmatter.friends && frontmatter.friends.length > 0 ? (
+          <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 mb-8 not-prose">
+            {frontmatter.friends.map(friend => (
+              <a
+                href={friend.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="group flex items-start gap-4 rounded-lg border-2 border-border bg-background p-4 shadow-sm transition hover:border-accent hover:bg-muted/10 hover:shadow-md no-underline"
+              >
+                {friend.avatar && (
+                  <img
+                    src={friend.avatar}
+                    alt={friend.name}
+                    class="h-16 w-16 flex-none rounded-full bg-muted object-cover border-none m-0"
+                    loading="lazy"
+                  />
+                )}
+                <div class="flex-1 min-w-0">
+                  <h3 class="truncate text-lg font-bold text-accent decoration-dashed underline-offset-4 group-hover:underline mb-1">
+                    {friend.name}
+                  </h3>
+                  {friend.description && (
+                  <p class="text-sm text-foreground/80 m-0">
+                    {friend.description}
+                  </p>)}
+                </div>
+              </a>
+            ))}
+          </div>
+        ) : (
+          <p class="italic text-foreground/80 mb-8">暂时还没有友链哦~</p>
+        )
+      }
+
+      <div class="app-prose">
+        <slot />
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>
