@@ -1,9 +1,9 @@
-async function loadGoogleFont(
+async function loadFont(
   font: string,
   text: string,
   weight: number
 ): Promise<ArrayBuffer> {
-  const API = `https://fonts.googleapis.com/css2?family=${font}:wght@${weight}&text=${encodeURIComponent(text)}`;
+  const API = `https://fonts.bunny.net/css2?family=${font}:wght@${weight}&text=${encodeURIComponent(text)}`;
 
   const css = await (
     await fetch(API, {
@@ -14,13 +14,23 @@ async function loadGoogleFont(
     })
   ).text();
 
-  const resource = css.match(
-    /src: url\((.+?)\) format\('(opentype|truetype)'\)/
+  const resources = Array.from(
+    css.matchAll(
+      /url\(([^)]+)\)\s*format\('(woff2|woff|opentype|truetype)'\)/g
+    )
   );
 
-  if (!resource) throw new Error("Failed to download dynamic font");
+  if (!resources.length) throw new Error("Failed to download dynamic font");
 
-  const res = await fetch(resource[1]);
+  const preferredFormats = ["truetype", "opentype", "woff", "woff2"];
+  const resource = preferredFormats
+    .map(format => resources.find(match => match[2] === format))
+    .find(Boolean);
+
+  if (!resource?.[1]) throw new Error("Failed to download dynamic font");
+
+  const resourceUrl = resource[1].replace(/^['"]|['"]$/g, "");
+  const res = await fetch(resourceUrl);
 
   if (!res.ok) {
     throw new Error("Failed to download dynamic font. Status: " + res.status);
@@ -29,7 +39,7 @@ async function loadGoogleFont(
   return res.arrayBuffer();
 }
 
-async function loadGoogleFonts(
+async function loadFonts(
   text: string
 ): Promise<
   Array<{ name: string; data: ArrayBuffer; weight: number; style: string }>
@@ -51,7 +61,7 @@ async function loadGoogleFonts(
 
   const fonts = await Promise.all(
     fontsConfig.map(async ({ name, font, weight, style }) => {
-      const data = await loadGoogleFont(font, text, weight);
+      const data = await loadFont(font, text, weight);
       return { name, data, weight, style };
     })
   );
@@ -59,4 +69,4 @@ async function loadGoogleFonts(
   return fonts;
 }
 
-export default loadGoogleFonts;
+export default loadFonts;
