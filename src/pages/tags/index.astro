@@ -16,8 +16,8 @@ let tags = getUniqueTags(posts);
 <Layout title={`标签 | ${SITE.title}`}>
   <Header />
   <Main pageTitle="标签" pageDesc="博客文章中使用过的所有标签">
-    <ul>
-      {tags.map(({ tag, tagName }) => <Tag {tag} {tagName} size="lg" />)}
+    <ul class="flex flex-wrap gap-6">
+      {tags.map(({ tag, tagName }) => <Tag {tag} {tagName} />)}
     </ul>
   </Main>
   <Footer />
