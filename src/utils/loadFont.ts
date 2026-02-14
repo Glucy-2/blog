@@ -57,6 +57,12 @@ async function loadFonts(
       weight: 700,
       style: "bold",
     },
+    {
+      name: "JetBrains Mono",
+      font: "JetBrains+Mono",
+      weight: 400,
+      style: "normal",
+    }
   ];
 
   const fonts = await Promise.all(
