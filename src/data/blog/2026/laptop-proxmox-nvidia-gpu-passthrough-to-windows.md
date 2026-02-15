@@ -2,6 +2,7 @@
 title: 在 Proxmox VE 上直通笔记本 NVIDIA 显卡到 Windows 虚拟机
 description: "记录一下在 Proxmox VE 上直通笔记本 NVIDIA 显卡到 Windows 虚拟机的过程"
 ogImage: "@/assets/2026/laptop-proxmox-nvidia-gpu-passthrough-to-windows/ogimage.png"
+featured: true
 pubDatetime: 2026-02-15T17:41:46Z
 tags:
 - 笔记本
