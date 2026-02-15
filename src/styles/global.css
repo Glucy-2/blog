@@ -102,7 +102,7 @@ html[data-theme="dark"] {
 }
 
 @utility max-w-app {
-  @apply max-w-6xl;
+  @apply max-w-3xl xl:max-w-7xl;
 }
 
 @utility app-layout {
