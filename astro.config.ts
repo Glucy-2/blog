@@ -1,4 +1,4 @@
-import { defineConfig, envField } from "astro/config";
+import { defineConfig, envField, fontProviders } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
 import sitemap from "@astrojs/sitemap";
 import react from "@astrojs/react";
@@ -68,5 +68,23 @@ export default defineConfig({
   },
   experimental: {
     preserveScriptOrder: true,
+    fonts: [
+      {
+        name: "Noto Sans SC",
+        cssVariable: "--font-noto-sans-sc",
+        provider: fontProviders.bunny(),
+        fallbacks: ["sans-serif"],
+        weights: [300, 400, 500, 600, 700],
+        styles: ["normal", "italic"],
+      },
+      {
+        name: "JetBrains Mono",
+        cssVariable: "--font-jetbrains-mono",
+        provider: fontProviders.bunny(),
+        fallbacks: ["monospace"],
+        weights: [400, 500, 700],
+        styles: ["normal"],
+      },
+    ],
   },
 });
