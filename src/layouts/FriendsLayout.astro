@@ -1,8 +1,10 @@
 ---
 import { SITE } from "@/config";
 import Layout from "./Layout.astro";
+import Comments from "@/components/Comments";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
+import BackToTopButton from "@/components/BackToTopButton.astro";
 import Breadcrumb from "@/components/Breadcrumb.astro";
 
 export interface Props {
@@ -67,9 +69,12 @@ const { frontmatter } = Astro.props;
         <slot />
       </div>
     </section>
+    <BackToTopButton />
+    <Comments client:only="react" />
   </main>
   <Footer />
 </Layout>
+
 
 <script>
   import { attachCopyButtons, addHeadingLinks } from "@/scripts/page-utils";
