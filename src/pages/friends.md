@@ -19,6 +19,10 @@ friends:
     url: https://blog.feipiao.xyz/
     avatar: https://blog.feipiao.xyz/images/feipiao.gif
     description: 学习笔记与生活记录
+  - name: 🦊's Home
+    url: https://www.jagdender.ink/
+    avatar: https://q1.qlogo.cn/g?b=qq&s=0&nk=3027297767
+    description: .NET, Web, Desktop and more :>
 ---
 
 欢迎交换友链！可以 [直接编辑此页面](https://github.com/Glucy-2/blog/edit/main/src/pages/friends.md) 并 [提交 PR](https://github.com/Glucy-2/blog/compare)，或在此页面下评论，或通过邮件等方式联系我，需要提供以下信息：
