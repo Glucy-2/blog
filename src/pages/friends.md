@@ -15,6 +15,10 @@ friends:
     url: https://lab.gb0.dev/
     avatar: https://lab.gb0.dev/img/avatar.png
     description: 此处会不定时产生包含大量废话的日志文件
+  - name: 594飞飘的个人博客
+    url: https://blog.feipiao.xyz/
+    avatar: https://blog.feipiao.xyz/images/feipiao.gif
+    description: 学习笔记与生活记录
 ---
 
 欢迎交换友链！可以 [直接编辑此页面](https://github.com/Glucy-2/blog/edit/main/src/pages/friends.md) 并 [提交 PR](https://github.com/Glucy-2/blog/compare)，或在此页面下评论，或通过邮件等方式联系我，需要提供以下信息：
