@@ -20,7 +20,7 @@ friends:
     avatar: https://blog.feipiao.xyz/images/feipiao.gif
     description: 学习笔记与生活记录
   - name: 🦊's Home
-    url: https://www.jagdender.ink/
+    url: https://blog.jagdender.ink/
     avatar: https://q1.qlogo.cn/g?b=qq&s=0&nk=3027297767
     description: .NET, Web, Desktop and more :>
   - name: William Wei's Blog 
