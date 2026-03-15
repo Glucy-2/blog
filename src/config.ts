@@ -3,7 +3,7 @@ export const SITE = {
   author: "Glucy2",
   profile: "https://glucy2.com/",
   desc: "Glucy2 的博客",
-  title: "Glucy2 的小天地",
+  title: "Glucy2 的折腾天地",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 0,
