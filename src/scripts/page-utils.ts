@@ -2,6 +2,9 @@
 export function addHeadingLinks() {
   const headings = Array.from(document.querySelectorAll("h2, h3, h4, h5, h6"));
   for (const heading of headings) {
+    // Avoid attaching multiple anchor links if the script runs multiple times
+    if (heading.querySelector(".heading-link")) continue;
+
     heading.classList.add("group");
     const link = document.createElement("a");
     link.className =
