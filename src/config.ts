@@ -6,7 +6,7 @@ export const SITE = {
   title: "Glucy2 的折腾天地",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
-  postPerIndex: 0,
+  postPerIndex: 4,
   postPerPage: 0,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
   showArchives: true,
