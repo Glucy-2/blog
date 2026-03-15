@@ -2,7 +2,7 @@ export const SITE = {
   website: "https://glucy2.com/", // replace this with your deployed domain
   author: "Glucy2",
   profile: "https://glucy2.com/",
-  desc: "Glucy2 的博客",
+  desc: "时不时折腾一些不知道能不能成功的东西",
   title: "Glucy2 的折腾天地",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
